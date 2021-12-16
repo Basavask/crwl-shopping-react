@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/crwl-shopping-react/static/css/main.e6c9f6e0.css",
+    "main.js": "/crwl-shopping-react/static/js/main.47530c09.js",
+    "static/js/787.d72a63a8.chunk.js": "/crwl-shopping-react/static/js/787.d72a63a8.chunk.js",
+    "index.html": "/crwl-shopping-react/index.html",
+    "main.e6c9f6e0.css.map": "/crwl-shopping-react/static/css/main.e6c9f6e0.css.map",
+    "main.47530c09.js.map": "/crwl-shopping-react/static/js/main.47530c09.js.map",
+    "787.d72a63a8.chunk.js.map": "/crwl-shopping-react/static/js/787.d72a63a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c9f6e0.css",
+    "static/js/main.47530c09.js"
+  ]
+}
