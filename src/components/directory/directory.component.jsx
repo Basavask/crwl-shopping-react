@@ -1,12 +1,10 @@
 import React, { Component } from "react";
-import { MenuItem } from "../menu-items/menu-items.component";
 import "./directory.styles.scss";
-
+import MenuItem from '../menu-items/menu-items.component';
 
 export class Directory extends Component {
-  constructor() {
-    super();
-
+  constructor(props) {
+    super(props);
     this.state = {
       section: [
         {
@@ -48,18 +46,11 @@ export class Directory extends Component {
   render() {
     return (
       <div className="directory-menu">
-        {this.state.section.map(({ title, id, linkUrl, imageUrl ,size}) => {
-          return (
-            <MenuItem
-              key={id}
-              imageUrl={imageUrl}
-              title={title}
-              linkUrl={linkUrl}
-              size={size}
-            />
-          );
+        {this.state.section.map(({ id, ...section }) => {
+          return <MenuItem key={id} {...section} />;
         })}
       </div>
     );
   }
+
 }
